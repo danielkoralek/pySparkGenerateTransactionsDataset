@@ -1,7 +1,7 @@
 # PySparkGenerateTransactionsDataset
-Simple PySpark notebook ran in Azure Synapse Spark Pool to mock a denormalized CSV file with transaction data. Used some basic tricks to mock the data in the absence of the `Fake` module.
+Simple PySpark notebook ran in `Azure Synapse Spark Pool` to mock a denormalized CSV file with transaction data. Used some basic tricks to mock the data in the absence of the `Fake` module. 
 
-Generated basic 10MM record CSV with the following structure:
+Generated basic 10MM record CSV with the following structure, with output pointing to the ADLSGen2 Storage Account.
 
 ```
 [
