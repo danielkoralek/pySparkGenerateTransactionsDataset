@@ -14,3 +14,7 @@ Generated basic 10MM record CSV with the following structure:
     'value'
 ]
 ```
+
+### Dataset example:
+
+![Head 10 of transactions](transactionsHead10.png)
